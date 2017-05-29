@@ -35,11 +35,14 @@ The key's randomart image is:
 </li>
 <li>We have to check and copy key by the command below<br><b>$ cat ~/.ssh/id_rsa.pub</b><br>then we'll see one code for display and copy SSH Key<br>
 <pre>
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCsilnY2Y8QjcmfU3mZw6aj7fXWJC5IlvaNwhRVQkTB                                                                                                                +f9Zp4z3yP69BzM8TMU0xtCTtYzLTqAQ+tLoUe/TmL1SqajK82i8chBDYAEYjPQDkBDRRyMpTjoxS2v7                                                                                                                /eJ+gOsqI3rXFcsakGxhNSLCyhHZj4auE467v/u5rJevXfJFUUjuZheSdmi0oqdfx09Y6qCzn2VvJgzH                                                                                                                7OGSBUDmIHhmsCLZ+Y4Ylwbmx88Q2yGAJN+bn+ONDlP4SRf8w+UtJzsE8yvXzcfZglEKYy90BUbB2SU5                                                                                                                mjgRP+5r9VcCs84GwjilKqbMCkNzISUUTwToxcrbGsy8QRkYZ3GWRm6NkfNn Sourabh@Sourabh-PC
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCsilnY2Y8QjcmfU3mZw6aj7fXWJC5IlvaNwhRVQkTB+f9Zp4z3yP69BzM8TMU0xtCTtYzLTqAQ+tLoUe/TmL1SqajK82i8chBDYAEYjPQDkBDRRyMpTjoxS2v7/eJ+gOsqI3rXFcsakGxhNSLCyhHZj4auE467v/u5rJevXfJFUUjuZheSdmi0oqdfx09Y6qCzn2VvJgzH7OGSBUDmIHhmsCLZ+Y4Ylwbmx88Q2yGAJN+bn+ONDlP4SRf8w+UtJzsE8yvXzcfZglEKYy90BUbB2SU5mjgRP+5r9VcCs84GwjilKqbMCkNzISUUTwToxcrbGsy8QRkYZ3GWRm6NkfNn Sourabh@Sourabh-PC
 </pre>
 <h6>Key generated</h6>
 </li>
-<li>Now we have to write the command below<br>$ git clone <u>Repository URl copy from green colored <b>clone and download button</b></u><br>#####EX:<br>$ git clone https://github.com/SourabhMPatrikar/Smanagement.git
+<li>Now we have to write the command below
+<br>$ git clone <u>Repository URl copy from green colored <b>clone and download button</b></u>
+<br><h5>EX:</h5>
+<br>$ git clone https://github.com/SourabhMPatrikar/Smanagement.git
 <br>then we'll see one code to know about clone status<br>
 <pre>
 Cloning into 'Smanagement'...
@@ -55,8 +58,14 @@ Unpacking objects: 100% (3/3), done.
 <pre>
 Initialized empty Git repository in D:/ng-Sourabh/s-management/.git/
 </pre>
+<h6>Init Done</h6>
 </li>
-<li></li>
+<li>For next step we should add and link git repository be following command<br>
+<b>$ git remote add origin git repository link</b>
+<br><h5>EX:</h5>
+<b>$ git remote add origin git@github.com:SourabhMPatrikar/Smanagement.git</b><br>
+<h6>Add and link with git done</h6>
+</li>
 <li></li>
 <li></li>
 </ol>
