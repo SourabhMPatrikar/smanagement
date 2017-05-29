@@ -1,0 +1,7 @@
+Error: [$controller:ctrlreg] The controller with the name 'AddStudentController' is not registered.
+Problem: angular
+	    .module('sManagement')
+	    .controller('MainController', AddStudentController);
+Solution: angular
+	    .module('sManagement')
+	    .controller('AddStudentController', AddStudentController);

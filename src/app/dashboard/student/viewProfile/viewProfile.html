@@ -1,0 +1,79 @@
+<div class="content">
+	<div class="row">
+		<div class="col-sm-12 col-md-12">
+			<h4>View Profile : Student</h4>
+		</div>
+	</div>
+	<div class="row" ng-repeat="item in record | filter:{'id':  6}:true">
+		<div class="col-sm-12 col-md-4 text-center">
+			<div class="profilepic img-circle">
+				<img src="{{item.profilePic}}" class="img-circle" alt="" title="" />
+			</div>
+		</div>
+		<div class="col-sm-12 col-md-6">
+          	<form class="formbox">
+	            <div class="form-group row">
+	              <label for="" class="col-sm-4 col-form-label">First Name</label>
+	              <div class="col-sm-8">{{item.firstName}}</div>
+	            </div>
+	            <div class="form-group row">
+	              <label for="" class="col-sm-4 col-form-label">Last Name</label>
+	              <div class="col-sm-8">{{item.lastName}}</div>
+	            </div>
+	            <div class="form-group row">
+	              <label for="" class="col-sm-4 col-form-label">Father's Name</label>
+	              <div class="col-sm-8">{{item.fatherName}}</div>
+	            </div>
+	            <div class="form-group row">  <!-- has-success-->
+	              <label for="" class="col-sm-4 col-form-label">Mother's Name</label>
+	              <div class="col-sm-8">{{item.motherName}}</div>
+	            </div>
+	            <div class="form-group row">  <!-- has-success-->
+	              <label for="" class="col-sm-4 col-form-label">DOB</label>
+	              <div class="col-sm-8">{{item.dob}}</div>
+	            </div>
+	            <div class="form-group row">  <!-- has-success-->
+	              <label for="" class="col-sm-4 col-form-label">Age</label>
+	              <div class="col-sm-8">{{item.age}}</div>
+	            </div>
+	            <div class="form-group row">  <!-- has-success-->
+	              <label for="" class="col-sm-4 col-form-label">Class</label>
+	              <div class="col-sm-8">{{item.class}}</div>
+	            </div>
+          	</form>
+			<div class="col-sm-12 col-md-12">
+				<a class="btn btn-info" ui-sref="dashboard.studentList">Back to Student List</a>
+				<a class="btn btn-primary" ui-sref="dashboard.addStudent">Add Student</a>
+				<a href="javascript:void(0);"></a>
+				<a href="javascript:void(0);"></a>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="row">
+		<div class="col-sm-12 col-md-12">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12 col-md-12">
+		</div>
+	</div>
+
+
+	<div class="row">
+		<div class="col-sm-12 col-md-12">
+		<!-- 	<a class="btn btn-info" ui-sref="dashboard.studentList">Back to Student List</a>
+			<a class="btn btn-primary" ui-sref="dashboard.addStudent">Add Student</a>
+			<a href="javascript:void(0);"></a>
+			<a href="javascript:void(0);"></a> -->
+		</div>
+	</div>
+</div>

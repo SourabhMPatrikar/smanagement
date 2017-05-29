@@ -1,0 +1,162 @@
+<div class="content">
+  <div class="row">
+    <div class="col-sm-12 col-md-12">
+      <h4>Add Student</h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-md-12">
+      <div class="row">
+        <div class="col-sm-6">
+
+
+
+
+          <form class="formbox">
+            <div class="form-group row">  <!-- has-success-->
+              <label for="firstName" class="col-sm-4 col-form-label">First Name</label>
+              <div class="col-sm-8">
+                <input type="Text" class="form-control" name="firstName" ng-model="student.firstName" id="firstName" placeholder="Name">
+                <span class="error-block" ng-show=""></span>
+                <div class="form-control-feedback">Success! You've done it.</div>
+                <small class="form-text text-muted">Example help text that remains unchanged.</small>
+              </div>
+            </div>
+            <div class="form-group row">  <!-- has-success-->
+              <label for="lastName" class="col-sm-4 col-form-label">Last Name</label>
+              <div class="col-sm-8">
+                <input type="Text" class="form-control" name="lastName" ng-model="student.lastName" id="lastName" placeholder="Name"> 
+                <!-- form-control-success -->
+                <div class="form-control-feedback">Success! You've done it.</div>
+                <small class="form-text text-muted">Example help text that remains unchanged.</small>
+              </div>
+            </div>
+            <div class="form-group row">  <!-- has-success-->
+              <label for="fatherName" class="col-sm-4 col-form-label">Father's Name</label>
+              <div class="col-sm-8">
+                <input type="Text" class="form-control" ng-model="student.fatherName" id="fatherName" placeholder="Name"> 
+                <!-- form-control-success -->
+                <div class="form-control-feedback">Success! You've done it.</div>
+                <small class="form-text text-muted">Example help text that remains unchanged.</small>
+              </div>
+            </div>
+            <div class="form-group row">  <!-- has-success-->
+              <label for="motherName" class="col-sm-4 col-form-label">Mother's Name</label>
+              <div class="col-sm-8">
+                <input type="Text" class="form-control" ng-model="student.motherName" id="motherName" placeholder="Name"> 
+                <!-- form-control-success -->
+                <div class="form-control-feedback">Success! You've done it.</div>
+                <small class="form-text text-muted">Example help text that remains unchanged.</small>
+              </div>
+            </div>
+            <div class="form-group row">  <!-- has-success-->
+              <label for="dob" class="col-sm-4 col-form-label">DOB</label>
+              <div class="col-sm-8">
+                <input type="Text" class="form-control" ng-model="student.dob" id="dob" placeholder="Name">
+                <div class="form-control-feedback">Success! You've done it.</div>
+                <small class="form-text text-muted">Example help text that remains unchanged.</small>
+              </div>
+            </div>
+            <div class="form-group row">  <!-- has-success-->
+              <label for="age" class="col-sm-4 col-form-label">Age</label>
+              <div class="col-sm-8">
+                <input type="Text" class="form-control" ng-model="student.age" id="age" placeholder="Name"> 
+                <!-- form-control-success -->
+                <div class="form-control-feedback">Success! You've done it.</div>
+                <small class="form-text text-muted">Example help text that remains unchanged.</small>
+              </div>
+            </div>
+            <div class="form-group row">  <!-- has-success-->
+              <label for="class" class="col-sm-4 col-form-label">Class</label>
+              <div class="col-sm-8">
+                <input type="Text" class="form-control" ng-model="student.class" id="class" placeholder="Name"> 
+                <!-- form-control-success -->
+                <div class="form-control-feedback">Success! You've done it.</div>
+                <small class="form-text text-muted">Example help text that remains unchanged.</small>
+              </div>
+            </div>
+            <div class="form-group row">  <!-- has-success-->
+              <label class="col-sm-4 col-form-label"></label>
+              <div class="col-sm-8">
+                <button class="btn btn-info">Add Student</button>
+                <button class="btn btn-default">Cancel</button>
+              </div>
+            </div>
+            <!-- 
+            <div class="form-group row has-success">
+              <label for="inputHorizontalSuccess" class="col-sm-4 col-form-label">Email</label>
+              <div class="col-sm-8">
+                <input type="email" class="form-control form-control-success" id="inputHorizontalSuccess" placeholder="name@example.com">
+                <div class="form-control-feedback">Success! You've done it.</div>
+                <small class="form-text text-muted">Example help text that remains unchanged.</small>
+              </div>
+            </div>
+            <div class="form-group row has-warning">
+              <label for="inputHorizontalWarning" class="col-sm-4 col-form-label">Email</label>
+              <div class="col-sm-8">
+                <input type="email" class="form-control form-control-warning" id="inputHorizontalWarning" placeholder="name@example.com">
+                <div class="form-control-feedback">Shucks, check the formatting of that and try again.</div>
+                <small class="form-text text-muted">Example help text that remains unchanged.</small>
+              </div>
+            </div>
+            <div class="form-group row has-danger">
+              <label for="inputHorizontalDnger" class="col-sm-4 col-form-label">Email</label>
+              <div class="col-sm-8">
+                <input type="email" class="form-control form-control-danger" id="inputHorizontalDnger" placeholder="name@example.com">
+                <div class="form-control-feedback">Sorry, that username's taken. Try another?</div>
+                <small class="form-text text-muted">Example help text that remains unchanged.</small>
+              </div>
+            </div>
+             -->
+          </form>
+
+
+
+
+
+        </div>
+        <div class="col-sm-6">
+
+
+
+
+          <form class="formbox">
+            <div class="form-group row">
+              <label for="" class="col-sm-4 col-form-label">First Name</label>
+              <div class="col-sm-8">{{student.firstName}}</div>
+            </div>
+            <div class="form-group row">
+              <label for="" class="col-sm-4 col-form-label">Last Name</label>
+              <div class="col-sm-8">{{student.lastName}}</div>
+            </div>
+            <div class="form-group row">
+              <label for="" class="col-sm-4 col-form-label">Father's Name</label>
+              <div class="col-sm-8">{{student.fatherName}}</div>
+            </div>
+            <div class="form-group row">  <!-- has-success-->
+              <label for="" class="col-sm-4 col-form-label">Mother's Name</label>
+              <div class="col-sm-8">{{student.motherName}}</div>
+            </div>
+            <div class="form-group row">  <!-- has-success-->
+              <label for="" class="col-sm-4 col-form-label">DOB</label>
+              <div class="col-sm-8">{{student.dob}}</div>
+            </div>
+            <div class="form-group row">  <!-- has-success-->
+              <label for="" class="col-sm-4 col-form-label">Age</label>
+              <div class="col-sm-8">{{student.age}}</div>
+            </div>
+            <div class="form-group row">  <!-- has-success-->
+              <label for="" class="col-sm-4 col-form-label">Class</label>
+              <div class="col-sm-8">{{student.class}}</div>
+            </div>
+          </form>
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

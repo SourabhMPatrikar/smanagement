@@ -1,0 +1,32 @@
+{
+	"teacherList":[
+		{
+			"id":"1",
+			"teacherId":"1",
+			"firstName":"Yogendra",
+			"lastName":"Yadav",
+			"fatherName":"Nilendra Yadav",
+			"fatherCell":"+91 9999123456",
+			"motherName":"Manju Yadav",
+			"motherCell":"+91 8899123456",
+			"dob":"Sep 13,1970",
+			"native":"Rajgarh",
+			"maritalStatus":"Married",
+			"spouseName":"Jyoti Yadav",
+			"ssc":"Bal Vinay Mandir, Rajgarh, Madhya Pradesh",
+			"sscPercent":"68",
+			"hsc":"Saraswati Higher Secondary School, Rajgarh, Madhya Pradesh",
+			"hscPercent":"71",
+			"bachalars":"Govt Science College, Bhopal, Madhya Pradesh",
+			"bachalarsPercent":"74",
+			"masters":"Govt Science College, Sihore, Madhya Pradesh",
+			"mastersPercent":"64",
+			"specilizaion":"PHD Mathematics",
+			"experience":"8",
+			"workInOrgnization":"2",
+			"classTeacher":"Class 11",
+			"totalPeriods":"6",
+			"profilePic":"http://www.gantrypark.com/Portals/12/Users/034/82/53282/michael-asmar.jpg"
+		}
+	]
+}

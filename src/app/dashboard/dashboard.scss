@@ -1,0 +1,34 @@
+body{background:#fcfcfc;}
+header{background:#069;}
+footer{background:#d2d2d2;}
+.content-panel{background:#fff;}
+header .navbar.navbar-default{position:relative; margin-top:0; margin-bottom:0; background:none; border:none; z-index:1;}
+header .navbar-default .navbar-nav > li > a{color:#eee;}
+header .navbar-default .navbar-nav > li:hover > a, header .navbar-default .navbar-nav > li:hover > a:hover{color:#fff;}
+header .navbar-default .navbar-nav > .open > a, header .navbar-default .navbar-nav > .open > a:hover, header .navbar-default .navbar-nav > .open > a:focus{background-color:none; color: #333; position:relative; z-index:10000;}
+header .navbar-default .navbar-nav > .open > ul.dropdown-menu, header .navbar-default .navbar-nav > .open > ul.dropdown-menu, header .navbar-default .navbar-nav > .open > ul.dropdown-menu{margin-top:-1px;}
+.navbar-default .navbar-brand{color:#fff;}
+.search-form-group{margin-bottom:0; min-width:250px;}
+.leftbarhold{background:#1d1d2d; padding-top:15px; padding-bottom:15px;}
+.leftbar{width:100%; min-height:500px;}
+
+
+
+.form-control-feedback{clear:both;}
+.has-success .col-form-label, .has-success .custom-control, .has-success .form-check-label, .has-success .form-control-feedback, .has-success .form-control-label {color: #5cb85c;}
+.formbox .form-control-feedback {text-align:left; position:static;}
+.formbox .has-success .form-control{ border-color: #5cb85c;}
+.formbox .form-control-feedback {width:auto; left:0;}
+.formbox .text-muted{color: #888;}
+.formbox .form-text {display: block;}
+.formbox .small, small {font-size: 85%; font-weight: 400;}    /*margin-top: .25rem;*/
+.formbox .col-form-label{font-weight:normal;}
+
+
+header .navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,.navbar-default .navbar-nav > .open > a:focus, 
+header .navbar-default .navbar-nav > li > a, 
+.nav .open > a, 
+.nav .open > a:hover, 
+.nav .open > a:focus{background:none;}

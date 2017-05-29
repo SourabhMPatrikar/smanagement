@@ -1,0 +1,35 @@
+<div class="container-fluid" ng-controller="LogoutController">
+	<div class="col-sm-4 col-sm-offset-4">
+	<br />
+	<br />
+	<br />Logout
+	<br />
+	<br />
+	</div>
+	<div class="col-sm-4 col-sm-offset-4">
+		<form class="loginform" name="loginForm" novalidate>
+			<div class="form-group" ng-class="{'has-success':loginForm.email.$valid && loginForm.email.$dirty, 'has-error':loginForm.email.$touched && loginForm.email.$pristine && loginForm.email.$invalid, 'has-error':loginForm.email.$invalid && loginForm.email.$error.pattern}">
+				<input required class="form-control" type="email" name="email" placeholder="Email" ng-model="loginUser.email" ng-pattern="passcheck" />
+				<span class="error-block" ng-show="loginForm.email.$touched && loginForm.email.$pristine && loginForm.email.$invalid">Email is required.</span>
+				<span class="error-block" ng-show="loginForm.email.$invalid && loginForm.email.$error.pattern">Enter correct email ID.</span>
+			</div>
+			<div class="form-group" ng-class="">
+				<input required class="form-control" type="password" name="password" placeholder="Password" ng-model="loginUser.password" />
+				<span class="error-block" ng-show="loginForm.password.$touched && loginForm.password.$pristine && loginForm.password.$invalid">Password is required.</span>
+			</div>
+			<div class="form-group">
+				<button class="btn btn-primary" type="button" ng-disabled="!loginForm.email.$dirty || !loginForm.password.$dirty || loginForm.email.$touched && loginForm.email.$pristine && loginForm.email.$invalid || loginForm.email.$invalid && loginForm.email.$error.pattern || loginForm.password.$touched && loginForm.password.$pristine && loginForm.password.$invalid" ng-click="signin(loginUser);">LOGIN</button>
+			</div>
+			<div class="form-group">
+				<p class="message">
+					<a href="#" class="pull-left">Create an account</a>
+					<a href="#" class="pull-right">Forgot Password</a>
+				</p>
+			</div>
+			<div class="clearfix"></div>
+			<div class="form-group">
+			{{loginUser.email}} {{loginUser.password}} 
+			</div>
+		</form>
+	</div>
+</div>
