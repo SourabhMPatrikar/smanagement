@@ -1,7 +1,7 @@
 # Smanagement
 
-##Setup Repository on Github
-####Make Local Repository
+## Setup Repository on Github
+#### Make Local Repository
 <ol>
 <li>Make a project folder on local machine and do right click on project folder on local. After right click select "Git Bash Here" open and click on it then it'll open git bash window. We have to write command in GIT bash window for setup our project.</li>
 <li>Write a command for generate SSH Key command is<br>
@@ -70,7 +70,7 @@ Initialized empty Git repository in D:/ng-Sourabh/s-management/.git/
 </li>
 </ol>
 
-#### PUSH, PULL, STATUS, ADD-M, COMMIT
+## PUSH, PULL, STATUS, ADD-M, COMMIT
 <ol>
 <li><b>$ git status</b><br>
 <h6>after above command GIT Bash will show file status of file,For that red color for not added file and green color for added files</h6><br>
