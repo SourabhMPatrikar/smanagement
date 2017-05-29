@@ -1,7 +1,7 @@
 # Smanagement
 
 ## Setup Repository on Github
-#### Make Local Repository
+##### Make Local Repository
 <ol>
 <li>Make a project folder on local machine and do right click on project folder on local. After right click select "Git Bash Here" open and click on it then it'll open git bash window. We have to write command in GIT bash window for setup our project.</li>
 <li>Write a command for generate SSH Key command is<br>
