@@ -427,7 +427,7 @@ Already up-to-date.
 </pre></li>
 </ol>
 
-##### Code Merging Commands
+## Code Merging Commands
 <ul>
   <li>$ git status</li>
   <li>$ git add .</li>
