@@ -1,14 +1,14 @@
 # Smanagement
 
-<h2>Setup Repository on Github</h2>
-<h4>Make Local Repository</h4>
+##Setup Repository on Github
+####Make Local Repository
 <ol>
 <li>Make a project folder on local machine and do right click on project folder on local. After right click select "Git Bash Here" open and click on it then it'll open git bash window. We have to write command in GIT bash window for setup our project.</li>
-<li>Write a command for generate SSH Key command is
+<li>Write a command for generate SSH Key command is<br>
 <b>$ ssh-keygen</b>
 <br>
 <br>
-<code>then we'll see one code for successfully generated SSH Key<br><br>Generating public/private rsa key pair.
+<pre>then we'll see one code for successfully generated SSH Key<br><br>Generating public/private rsa key pair.
 Enter file in which to save the key (/c/Users/Sourabh/.ssh/id_rsa):
 /c/Users/Sourabh/.ssh/id_rsa already exists.
 Overwrite (y/n)? y
@@ -30,7 +30,7 @@ The key's randomart image is:
 |       o         |
 |                 |
 +----[SHA256]-----+
-</code>
+</pre>
 <h6>Now key is generated</h6>
 </li>
 <li>We have to check and copy key by the command below<br><b>$ cat ~/.ssh/id_rsa.pub</b><br><br><h6>Key generated</h6>
