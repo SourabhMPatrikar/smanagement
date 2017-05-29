@@ -426,3 +426,13 @@ From github.com:SourabhMPatrikar/Smanagement
 Already up-to-date.
 </pre></li>
 </ol>
+
+#### Code Merging Commands
+<ul>
+  <li>$ git status</li>
+  <li>$ git add .</li>
+  <li>$ git status</li>
+  <li>$ git commit -m "Your comment here"</li>
+  <li>$ git push origin master</li>
+  <li>$ git pull origin master</li>
+<ul>
